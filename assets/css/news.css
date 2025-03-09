@@ -1,0 +1,692 @@
+
+.news-section {
+    margin-top: 30px;
+}
+
+.news-body {
+}
+
+.cart-info {
+    gap: 20px;
+    margin-top: 20px;
+    flex: 1 1 auto;
+}
+
+.news-list {
+    margin-top: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.cart-more {
+    margin-top: 25px;
+    gap: 14px;
+    max-width: max-content;
+}
+
+.cart-more span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--gold);
+
+}
+
+.cart-more i {
+    font-size: 12px;
+}
+
+.cart-more:hover {
+    text-decoration: underline;
+}
+
+.news-cart {
+    flex: 1 1 31.6%;
+    padding: 30px 27px;
+    background: var(--dark-gray);
+    border: 2px solid var(--white);
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    --webkit-filter: blur(5px);
+    box-shadow: 0px 5px 30px 0px var(--dark-gray2);
+}
+
+.cart-img {
+    width: 100%;
+    height: 200px;
+
+}
+
+.cart-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.news-details-body {
+    margin-top: 30px;
+
+}
+
+.news-details-cnt {
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.details-tools {
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.news-details-info {
+    padding: 30px 27px;
+    background: var(--dark-gray);
+    border: 2px solid var(--white);
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    --webkit-filter: blur(5px);
+    box-shadow: 0px 5px 30px 0px var(--dark-gray2);
+}
+
+.details-img {
+    height: 400px;
+    width: 100%;
+}
+
+.details-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.big-column {
+    max-width: 780px;
+    width: 100%;
+    gap: 20px;
+}
+
+.small-column {
+    max-width: 400px;
+    width: 100%;
+}
+
+.details-tools {
+    margin-top: 25px;
+}
+
+.details-actions {
+    gap: 15px;
+}
+
+.details-data {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--dark-black);
+    opacity: .5;
+
+}
+
+.details-watched {
+    gap: 8px;
+}
+
+.details-watched p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--dark-black);
+    opacity: .8;
+
+}
+
+.icon-visibility {
+    background: var(--dark-black);
+    font-size: 20px;
+
+}
+
+.details-share {
+    gap: 15px;
+}
+
+.share-in {
+    gap: 10px;
+}
+
+.icon-send {
+    font-size: 12px;
+    background: var(--dark-black);
+
+}
+
+.share-in span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--dark-black);
+
+}
+
+.favorite {
+    gap: 10px;
+}
+
+.icon-send {
+    font-size: 12px;
+    background: var(--dark-black);
+
+}
+
+.favorite span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--dark-black);
+
+}
+
+.icon-favorite {
+    background: var(--gold);
+}
+
+.awards-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 107%;
+    color: var(--dark-black);
+    margin-left: 30px;
+
+}
+
+.awards-items {
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.award-item {
+    padding: 30px 27px;
+    background: var(--dark-gray);
+    border: 2px solid var(--white);
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    --webkit-filter: blur(5px);
+    box-shadow: 0px 5px 30px 0px var(--dark-gray2);
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.award-item-title {
+    gap: 17px;
+}
+
+.award-item-title p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--dark-black);
+
+}
+
+.award-item-title i {
+    font-size: 20px;
+}
+
+.icon-cast {
+    font-size: 20px;
+    background: var(--gold);
+}
+
+.details-item-descriptions {
+    padding: 30px 27px;
+    gap: 40px;
+    background: var(--dark-gray);
+    border: 2px solid var(--white);
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    --webkit-filter: blur(5px);
+    box-shadow: 0px 5px 30px 0px var(--dark-gray2);
+}
+
+.description-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--dark-black);
+
+}
+
+.description-text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--dark-black);
+    opacity: .8;
+    margin-top: 20px;
+
+}
+
+.description-bold-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--dark-black);
+
+}
+
+.count-texts {
+    margin-top: 25px;
+    gap: 5px;
+}
+
+.count-texts p {
+    margin-left: 5px;
+}
+
+
+.dots-texts {
+    margin-top: 25px;
+    gap: 5px;
+}
+
+.dots-texts p {
+    margin-left: 20px;
+    position: relative;
+}
+
+.dots-texts p::after {
+    width: 3px;
+    height: 3px;
+    content: '';
+    border-radius: 50%;
+    background: var(--dark-black);
+    position: absolute;
+    left: -10px;
+    top: 8px;
+
+}
+
+.description-clue {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--dark-black);
+    opacity: .8;
+}
+
+.small-column {
+    max-width: 400px;
+    width: 100%;
+}
+
+.possibilities-block {
+    padding: 27px;
+    width: 100%;
+    background: var(--dark-gray);
+    border: 2px solid var(--white);
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    --webkit-filter: blur(5px);
+    box-shadow: 0px 5px 30px 0px var(--dark-gray2);
+}
+
+.possibilities-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--dark-black);
+
+}
+
+.possibilities-items {
+    gap: 25px;
+    margin-top: 25px;
+
+}
+
+.possibilities-item-header {
+    gap: 12px;
+}
+
+.possibilities-icon {
+    background: var(--gold);
+    font-size: 15px;
+}
+
+.possibilities-item-name {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    color: var(--dark-black);
+
+}
+
+.possibilities-more {
+    margin-left: auto;
+}
+
+.possibilities-more i {
+    font-size: 12px;
+}
+
+.possibilities-text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--dark-black);
+    margin-top: 6px;
+
+}
+
+.details-banner-block {
+    min-height: 662px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+}
+
+.details-banner-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+.details-banner-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.details-banner-block {
+    padding: 80px 30px;
+}
+
+.banner-title {
+    font-family: 'Anonymous Pro', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    color: var(--white);
+    text-align: center;
+
+}
+
+.banner-text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    margin-top: 20px;
+    opacity: .8;
+    color: var(--white);
+
+}
+
+.banner-tolls {
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.banner-demo {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    color: var(--white);
+    opacity: .8;
+
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+
+    .news-details-cnt {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .big-column {
+        max-width: 100%;
+        gap: 30px;
+    }
+
+    .small-column {
+        max-width: 100%;
+    }
+
+    .banner-tolls {
+        gap: 20px;
+        margin-top: 40px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .news-cart {
+        flex: 1 1 50%;
+
+    }
+}
+
+
+@media (max-width: 576px) {
+    .news-cart {
+        flex: 1 1 50%;
+        padding: 25px;
+        border-radius: 25px;
+
+    }
+
+    .cart-info {
+        gap: 15px;
+    }
+
+    .news-list {
+        gap: 15px;
+    }
+
+    .cart-more {
+        display: none;
+    }
+
+    .cart-img {
+        height: 170px;
+    }
+
+    .news-details-info {
+        padding: 22px 25px;
+        border-radius: 25px;
+    }
+
+    .details-img {
+        height: 170px;
+    }
+
+    .awards-block {
+        margin-top: 15px;
+    }
+
+    .awards-title {
+        margin-left: 0;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        text-align: center;
+
+    }
+
+    .details-tools {
+        margin-top: 20px;
+    }
+
+    .details-data {
+        font-size: 12px;
+        line-height: 140%;
+
+    }
+
+    .icon-visibility {
+        font-size: 10px;
+    }
+
+    .details-watched p {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+
+    }
+
+    .details-share {
+        gap: 7px;
+    }
+
+    .details-share span {
+        display: none;
+    }
+
+    .details-share i {
+        font-size: 10px;
+    }
+
+    .details-watched {
+        gap: 5px;
+    }
+
+    .details-actions {
+        gap: 8px;
+    }
+
+    .award-item-title {
+        gap: 11px;
+    }
+
+    .award-item-title p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+
+    }
+
+    .award-item-title i {
+        font-size: 16px;
+    }
+
+    .award-item {
+        padding: 25px;
+        border-radius: 25px;
+        gap: 15px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .details-item-descriptions {
+        padding: 25px;
+        gap: 25px;
+        border-radius: 25px;
+    }
+
+    .description-text {
+        margin-top: 15px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+
+    }
+
+    .description-title {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 100%;
+
+    }
+
+    .count-texts {
+        margin-top: 20px;
+
+    }
+
+    .description-bold-text {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+    }
+
+    .description-clue {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+    }
+
+    .possibilities-title{
+        font-size: 18px;
+        line-height: 100%;
+
+    }
+    .possibilities-items{
+        gap: 35px;
+    }
+    .possibilities-block {
+        padding: 25px;
+        border-radius: 25px;
+
+    }
+    .possibilities-text{
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+
+    }
+    .details-banner-block {
+        padding: 60px 30px;
+    }
+    .possibilities-more i{
+        font-size: 10px;
+    }
+    .banner-title{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+
+    }
+    .banner-text{
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+        margin-top: 25px;
+
+    }
+    .banner-demo{
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 100%;
+
+    }
+    .details-banner-img img{
+        border-radius: 25px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+
+}

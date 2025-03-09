@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+}
+
+.icon-iphone{
+    mask-image: url(iphone.svg);
+    -webkit-mask-image: url(iphone.svg);
+}
+
+.icon-android{
+    mask-image: url(android.svg);
+    -webkit-mask-image: url(android.svg);
+}
+.icon-google{
+    mask-image: url(google.svg);
+    -webkit-mask-image: url(google.svg);
+}
+.icon-api{
+    mask-image: url(api.svg);
+    -webkit-mask-image: url(api.svg);
+}
+.icon-exchange{
+    mask-image: url(exchange.svg);
+    -webkit-mask-image: url(exchange.svg);
+}
+.icon-sell{
+    mask-image: url(sell.svg);
+    -webkit-mask-image: url(sell.svg);
+}
+
+.icon-account_circle{
+    mask-image: url(account_circle.svg);
+    -webkit-mask-image: url(account_circle.svg);
+}
+.icon-arrow_outward{
+    mask-image: url(arrow_outward.svg);
+    -webkit-mask-image: url(arrow_outward.svg);
+}
+.icon-currency_exchange{
+    mask-image: url(currency_exchange.svg);
+    -webkit-mask-image: url(currency_exchange.svg);
+}
+
+.icon-wallet{
+    mask-image: url(account_balance_wallet.svg);
+    -webkit-mask-image: url(account_balance_wallet.svg);
+}
+.icon-book-spark{
+    mask-image: url(book_4_spark.svg);
+    -webkit-mask-image: url(book_4_spark.svg);
+}
+
+.icon-person{
+    mask-image: url(article_person.svg);
+    -webkit-mask-image: url(article_person.svg);
+}
+.icon-shield{
+    mask-image: url(shield.svg);
+    -webkit-mask-image: url(shield.svg);
+}
+.icon-dns{
+    mask-image: url(dns.svg);
+    -webkit-mask-image: url(dns.svg);
+}
+
+.icon-alarm_on{
+    mask-image: url(alarm_on.svg);
+    -webkit-mask-image: url(alarm_on.svg);
+}
+.icon-lock{
+    mask-image: url(lock.svg);
+    -webkit-mask-image: url(lock.svg);
+}
+
+.icon-accessibility_new{
+    mask-image: url(accessibility_new.svg);
+    -webkit-mask-image: url(accessibility_new.svg);
+}
+
+.icon-help{
+    mask-image: url(help.svg);
+    -webkit-mask-image: url(help.svg);
+}
+.icon-add_circle{
+    mask-image: url(encrypted_add_circle.svg);
+    -webkit-mask-image: url(encrypted_add_circle.svg);
+}
+.icon-wk{
+    mask-image: url(wk.svg);
+    -webkit-mask-image: url(wk.svg);
+}
+.icon-telegram{
+    mask-image: url(telegram.svg);
+    -webkit-mask-image: url(telegram.svg);
+}
+.icon-visibility{
+    mask-image: url(visibility.svg);
+    -webkit-mask-image: url(visibility.svg);
+}
+.icon-favorite{
+    mask-image: url(favorite.svg);
+    -webkit-mask-image: url(favorite.svg);
+}
+.icon-send{
+    mask-image: url(send.svg);
+    -webkit-mask-image: url(send.svg);
+}
+.icon-cast{
+    mask-image: url(cast.svg);
+    -webkit-mask-image: url(cast.svg);
+}
+.icon-credit_card{
+    mask-image: url(credit_card.svg);
+    -webkit-mask-image: url(credit_card.svg);
+}
+.icon-language{
+    mask-image: url(language.svg);
+    -webkit-mask-image: url(language.svg);
+}
+.icon-money_bag{
+    mask-image: url(money_bag.svg);
+    -webkit-mask-image: url(money_bag.svg);
+}
+.icon-festival{
+    mask-image: url(festival.svg);
+    -webkit-mask-image: url(festival.svg);
+}
+.icon-deployed_code{
+    mask-image: url(deployed_code.svg);
+    -webkit-mask-image: url(deployed_code.svg);
+}
+.icon-arrow_down{
+    mask-image: url(arrow_down.svg);
+    -webkit-mask-image: url(arrow_down.svg);
+}

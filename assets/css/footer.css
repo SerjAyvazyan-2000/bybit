@@ -1,0 +1,107 @@
+
+.footer {
+    padding: 40px 0;
+    background: var(--black2);
+    border-top: 2px solid var(--gray);
+    margin-top: -130px;
+    position: relative;
+    z-index: 2;
+
+
+}
+
+.footer-body {
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    gap: 20px;
+}
+
+.contact-tolls {
+    gap: 12px;
+}
+
+.footer-menu-list {
+    gap: 40px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+
+}
+.contact-link{
+    display: flex;
+}
+.contact-link i {
+    font-size: 25px;
+    background: var(--white);
+    transition: .3s;
+}
+
+.contact-link:hover i {
+    transform: scale(1.1);
+}
+.footer-menu-link {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 100%;
+    color: var(--white);
+    opacity: .6;
+
+}
+
+.footer-actions {
+    gap: 30px;
+}
+.footer-menu-link:hover {
+    text-decoration: underline;
+
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+    .footer {
+        margin-top: -20px;
+
+
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+
+@media (max-width: 576px) {
+    .footer-body {
+        gap: 40px;
+    }
+
+    .contact-link i {
+        font-size: 15px;
+
+    }
+    .footer-actions .btn-login{
+        order: 2;
+    }
+    .footer-actions .btn-register{
+        order: 1;
+    }
+}
+
+@media (max-width: 400px) {
+
+
+}
