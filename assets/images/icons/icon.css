@@ -24,6 +24,7 @@
 .icon-google{
     mask-image: url(google.svg);
     -webkit-mask-image: url(google.svg);
+
 }
 .icon-api{
     mask-image: url(api.svg);
@@ -96,12 +97,20 @@
     -webkit-mask-image: url(encrypted_add_circle.svg);
 }
 .icon-wk{
-    mask-image: url(wk.svg);
-    -webkit-mask-image: url(wk.svg);
+    background-image: url(wk.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
 }
 .icon-telegram{
-    mask-image: url(telegram.svg);
-    -webkit-mask-image: url(telegram.svg);
+    background-image: url(telegram.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
 }
 .icon-visibility{
     mask-image: url(visibility.svg);

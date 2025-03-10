@@ -667,12 +667,18 @@
         line-height: 100%;
 
     }
+    .details-trust-body{
+        display: none;
+    }
     .banner-text{
         font-size: 14px;
         line-height: 140%;
         text-align: center;
         margin-top: 25px;
 
+    }
+    .trust-section{
+        padding-bottom: 70px;
     }
     .banner-demo{
         font-weight: 300;

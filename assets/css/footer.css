@@ -34,8 +34,6 @@
     display: flex;
 }
 .contact-link i {
-    font-size: 25px;
-    background: var(--white);
     transition: .3s;
 }
 
@@ -88,11 +86,13 @@
     .footer-body {
         gap: 40px;
     }
+    .footer {
+        margin-top: 0;
 
-    .contact-link i {
-        font-size: 15px;
 
     }
+
+
     .footer-actions .btn-login{
         order: 2;
     }
